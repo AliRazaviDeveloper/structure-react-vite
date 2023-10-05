@@ -1,5 +1,3 @@
-import HomePage from './Home/index';
+import HomePage from './Home';
 
-export {
-  HomePage
-}
+export {HomePage};
