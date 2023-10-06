@@ -1,5 +1,7 @@
+import { Button } from '../../components';
+
 const HomePage = () => {
-  return <div>Hello Home Page</div>;
+  return <Button>Click</Button>;
 };
 
 export default HomePage;
