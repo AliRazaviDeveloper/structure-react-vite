@@ -1,4 +1,4 @@
-import { Button } from '../../components';
+import {Button} from '../../components';
 
 const HomePage = () => {
   return <Button>Click</Button>;

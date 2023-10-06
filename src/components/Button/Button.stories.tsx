@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react';
+import type {Meta, StoryObj} from '@storybook/react';
 import Button from '.';
 
 const meta = {
@@ -9,7 +9,7 @@ const meta = {
   },
   tags: ['autodocs'],
   argTypes: {
-    variant: { control: 'primary' },
+    variant: {control: 'primary'},
   },
 } satisfies Meta<typeof Button>;
 

@@ -1,7 +1,7 @@
-import { Loading } from '..';
+import {Loading} from '..';
 import classNames from '../../helpers/className';
-import { buttonStyles } from './Button.styles';
-import { ButtonProps } from './Button.types';
+import {buttonStyles} from './Button.styles';
+import {ButtonProps} from './Button.types';
 
 export const Button: React.FC<ButtonProps> = (props) => {
   const {

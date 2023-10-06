@@ -1,7 +1,7 @@
-import { LoadingProps } from './Loading.types';
+import {LoadingProps} from './Loading.types';
 
 export const Loading: React.FC<LoadingProps> = (props) => {
-  const { ...rest } = props;
+  const {...rest} = props;
 
   return (
     <svg
